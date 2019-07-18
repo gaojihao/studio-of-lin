@@ -26,11 +26,6 @@
       <image class='small-icon' src='../../images/arrow.png' />
     </view>
 
-    <view class='info-item' catchtap='onMyOrder'>
-      <view class='label'>我的预约</view>
-      <image class='small-icon' src='../../images/arrow.png' />
-    </view>
-
     <view class='info-item' catchtap='onAboutUs'>
       <view class='label'>关于我们</view>
       <image class='small-icon' src='../../images/arrow.png' />

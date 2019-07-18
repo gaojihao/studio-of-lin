@@ -69,13 +69,6 @@ Page({
     })
   },
 
-  //视频
-  onVideoList() {
-    wx.navigateTo({
-      url: '../video/video',
-    })
-  },
-
   //关于我们
   onAboutUs() {
 
@@ -92,13 +85,6 @@ Page({
       url: '../help/help',
     })
 
-  },
-
-
-  onMyOrder() {
-    wx.navigateTo({
-      url: '../myorder/myorder',
-    })
   },
 
 })

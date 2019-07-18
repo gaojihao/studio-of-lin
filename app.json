@@ -14,8 +14,6 @@
     "pages/about/about",
     "pages/help/help",
     "pages/nickName/nickName",
-    "pages/interact/interact",
-    "pages/myorder/myorder",
     "pages/survey/survey",
     "pages/contact/contact",
     "pages/health/health",
