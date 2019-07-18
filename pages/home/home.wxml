@@ -7,14 +7,6 @@
         <image class='businessImage' src='../../images/zixun.png' />
         <text class='businessText'>咨询</text>
       </view>
-      <view class='businessItem' bindtap='onYuYue'>
-        <image class='businessImage' src='../../images/yuyue.png' />
-        <text class='businessText'>预约</text>
-      </view>
-      <view class='businessItem' bindtap='onInteract'>
-        <image class='businessImage' src='../../images/comment.png' />
-        <text class='businessText'>互动</text>
-      </view>
       <view class='businessItem' bindtap='onInfo'>
         <image class='businessImage' src='../../images/info.png' />
         <text class='businessText'>信息</text>
@@ -34,7 +26,7 @@
   <view class='cell-content-view'>
     <view class='cell-item' catchtap='onWenZhen'>
         <image class='businessImage' src='../../images/wenzhen.png' />
-        <text class='cell-content-view-text'>在线问诊</text>
+        <text class='cell-content-view-text'>在线咨询</text>
     </view>
 
     <view class='cell-item' catchtap='onJiaoYu'>
@@ -65,36 +57,6 @@
      <image catchtap='onScale' class='cell-content-view-image' mode='aspectFit' src='../../images/zice.png' />
      <image catchtap='onReport' class='cell-content-view-image' mode='aspectFit' src='../../images/chaxun.png' />
      <image catchtap='onSurveies' class='cell-content-view-image' mode='aspectFit' src='../../images/wenjuan.png' />
-
-  </view>
-
-  <view class="line"/>
-
-  <view class='cell-head'>
-    <view class='cell-head-color'/>
-    <text class='cell-head-text'>医院引导</text>
-  </view>
-  <view class='cell-content-view'>
-
-    <view class='cell-item' catchtap='onHospitalDesc'>
-        <image class='businessImage' src='../../images/jieshao.png' />
-        <text class='cell-content-view-text'>医院介绍</text>
-    </view>
-
-    <view class='cell-item' catchtap='onHospitalFlow'>
-        <image class='businessImage' src='../../images/zhinan.png' />
-        <text class='cell-content-view-text'>就医指南</text>
-    </view>
-
-    <view class='cell-item' catchtap='onGuide'>
-        <image class='businessImage' src='../../images/daohang.png' />
-        <text class='cell-content-view-text'>来院导航</text>
-    </view>
-
-    <view class='cell-item' catchtap='onHospitalGuide'>
-        <image class='businessImage' src='../../images/guide.png' />
-        <text class='cell-content-view-text'>院内指引</text>
-    </view>
 
   </view>
 

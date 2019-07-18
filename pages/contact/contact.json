@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "在线问诊",
+  "navigationBarTitleText": "在线咨询",
   "usingComponents": {
     "empty": "../empty/empty"
   }

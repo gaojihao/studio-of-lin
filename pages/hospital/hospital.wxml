@@ -1,5 +1,0 @@
-<view class='root'>
-  <view class='content'>{{desc}}</view>
-
-  <image class='bottomimage' src='../../images/bottomimage.png'/>
-</view>
