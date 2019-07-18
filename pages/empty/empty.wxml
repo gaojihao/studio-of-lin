@@ -1,0 +1,4 @@
+<view class='wrapper'>
+  <image class='empty-image' src='../../images/notes.png'/>
+  <view class='empty-text'>{{innerText}}</view>
+</view>

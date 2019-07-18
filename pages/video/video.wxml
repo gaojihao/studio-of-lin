@@ -1,0 +1,6 @@
+<view class='root'>
+  <view class='video-item' wx:for="{{videos}}" wx:key="{{item.video_url}}" data-url="{{item.video_url}}" catchtap='onVideoDetail'>
+    <image class='video-thumb' src='{{item.thumb_url}}'/>
+    <text class='video-title'>名称</text>
+  </view>
+</view>

@@ -1,0 +1,39 @@
+.root{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+button[type=primary]{
+  background: linear-gradient(to right, #FF9176, #FE5E86);
+}
+
+.padding-view{
+  margin-top: 60rpx;
+  width: 80vw;
+}
+
+.input-item{
+  display: flex;
+  height: 140rpx;
+  align-items: center;
+  flex-direction: row;
+}
+
+input{
+  border-bottom: 1px solid #efefef;
+  height: 84rpx;
+  flex: 1;
+  padding-left: 8rpx;
+  font-size: 12pt;
+  color: #333333;
+}
+
+.small-icon{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 16rpx;
+}

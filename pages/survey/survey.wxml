@@ -1,0 +1,11 @@
+<view class='root'>
+  <empty wx:if="{{list.length === 0}}" inner-text="您暂时没有收到问卷" />
+  <block wx:else>
+    <view class='items'>
+    <view bindtap='surveySelect' class='item' wx:for="{{list}}" wx:key="{{item.surveyId}}" data-surveyUrl="{{item.surveyUrl}}">
+      <view class='name'>{{item.surveyName}}</view>
+      <view class='status'>{{item.statusName}}</view>
+    </view>
+  </view>
+  </block>
+</view>

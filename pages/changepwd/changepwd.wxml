@@ -1,0 +1,24 @@
+<view class='root'>
+  <view class='padding-view'>
+    <view class='input-item'>
+      <input bindinput="bindCurrentPwdInput" password maxlength="16" placeholder="请新输入当前密码"/>
+    </view>
+    <view class='input-item'>
+      <input bindinput="bindPasswordInput" password maxlength="16" placeholder="请输入新密码"></input>
+    </view>
+    <view class='input-item'>
+      <input bindinput="bindConfirmInput" password maxlength="16" placeholder="请再次输入新密码"></input>
+    </view>
+
+    <button 
+    bindtap='onCommit' 
+    class='commit' 
+    size='default' 
+    type='primary'>
+    提交
+    </button>
+  </view>
+
+  <image class='bottomimage' src='../../images/bottomimage.png'/>
+</view>
+

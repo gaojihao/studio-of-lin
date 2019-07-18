@@ -1,0 +1,93 @@
+@import "../common/common.wxss";
+
+.input-item{
+  position: relative;
+}
+
+.smscode{
+  position: absolute;
+  right: 4rpx;
+  font-size: 9pt;
+}
+
+.icon{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 16rpx;
+}
+
+.login{
+  height: 80rpx;
+  border-radius: 40rpx;
+  margin-top: 40rpx;
+}
+
+.register{
+  height: 80rpx;
+  border-radius: 40rpx;
+  margin-top: 40rpx;
+}
+
+.option{
+  color: #2E4038;
+  font-size: 11pt;
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+}
+
+text{
+  color: #999;
+  font-size: 10pt;
+}
+
+.label{
+  color: #333;
+  font-size: 12pt;
+  margin-right: 16rpx;
+}
+
+.birthday-picker{
+  border: 1px solid #f0f0f0;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 60rpx;
+}
+
+.arrow-down{
+  height: 24rpx;
+  width: 24rpx;
+}
+
+
+.sex-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+
+.sex-cell{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.sex-cell-name{
+  font-size: 10pt;
+  color: #666;
+}
+
+.weui-input{
+  color: #333;
+  font-size: 12pt;
+}
+
+
+
+

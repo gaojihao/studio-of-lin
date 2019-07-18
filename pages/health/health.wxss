@@ -1,0 +1,23 @@
+@import "../common/common.wxss";
+
+.item {
+  display: flex;
+  flex-direction: column;
+  height: 140rpx;
+  width: 92vw;
+  border-bottom: 1px dashed #e8e8e8;
+  justify-content: space-around;
+}
+
+.title{
+  font-size: 13pt;
+  color: #333333;
+}
+
+.bottom{
+  font-size: 11pt;
+  color: #999999;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

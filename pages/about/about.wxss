@@ -1,0 +1,10 @@
+@import "../common/common.wxss";
+
+
+
+.bottomimage{
+  width: 100vw;
+  height: 29.2vw;
+  position: absolute;
+  bottom: 0;
+}

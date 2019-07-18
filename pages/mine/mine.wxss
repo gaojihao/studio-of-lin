@@ -1,0 +1,35 @@
+
+.weui-cell-list{
+  background: #fff;
+  margin: 5px 30px 5px 30px;
+}
+
+.weui-cell-line{
+  margin-left: 5px;
+  border-left: 1px solid #ddd;
+  height: 100px; 
+  background: #fff
+}
+.weui-cell-circle{
+  background-color: #FE5E86;
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+}
+.weui-cell-time{
+  float: left;
+  font-size:14px;
+  padding-left: 15px;
+  width: 172px;
+
+}
+.weui-cell-event{
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.weui-cell-name{
+  font-size:14px;
+  height:23px;
+  margin-left: 100px;
+}

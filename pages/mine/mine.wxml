@@ -1,0 +1,13 @@
+<view class='root'>
+  <empty wx:if="{{items.length === 0}}" inner-text="暂时没有此类信息" />
+  <block wx:else>
+    <view class='weui-cell-list' wx:for="{{items}}" wx:key="*this">
+      <view class='weui-cell-circle'></view>
+      <view class='weui-cell-line'>
+        <view class='weui-cell-time'>{{item.createTime}}</view>
+        <view class='weui-cell-name'>{{item.realName}}</view>
+        <view class='weui-cell-event'>{{item.title}}</view>
+      </view>
+    </view>
+  </block>
+</view>

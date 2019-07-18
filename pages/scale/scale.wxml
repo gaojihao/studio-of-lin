@@ -1,0 +1,15 @@
+<view class='root'>
+  <empty wx:if="{{list.length === 0}}" inner-text="暂时没有评测量表数据" />
+  <block wx:else>
+    <view 
+    class='weui-cell-list' 
+    bindtap="onDetail" 
+    wx:for="{{items}}" 
+    wx:key="{{item.surveyId}}"
+    data-url="{{item.url}}">
+      <view class='weui-cell-title'>{{item.title}}</view>
+      <view class='weui-cell-sub-title'>{{item.subTitle}}</view>
+      <view class='weui-cell-date'>{{item.createAt}}</view>
+    </view>
+  </block>
+</view>

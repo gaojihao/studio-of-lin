@@ -1,0 +1,82 @@
+@import "../common/common.wxss";
+
+
+.items{
+  background-color: white;
+  margin-top: 20rpx;
+  width: 100vw;
+  border-top: 2px solid #eeeeee;
+}
+
+
+
+.weui-cell-list{
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  display: flex;
+  flex: 1;
+  height: 240rpx;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.weui-cell-left{
+  flex: 1;
+}
+
+.weui-cell-right{
+  width: 200rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.weui-cell-item-top{
+
+}
+
+.weui-cell-item-bottom{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.weui-cell-date{
+  font-size: 13pt;
+  color: #000;
+}
+
+.weui-cell-title{
+  font-size: 11pt;
+  color: #000;
+  margin-left: 8rpx;
+}
+
+.weui-cell-hospital{
+  font-size: 11pt;
+  color: #666666;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  -webkit-text-overflow:ellipsis;
+  -moz-text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.weui-cell-doctor{
+  font-size: 12pt;
+  color: #666;
+}
+
+.weui-cell-department{
+  font-size: 11pt;
+  color: #999999;
+  margin-top: 8rpx;
+}
+
+.weui-cell-image{
+  width: 120rpx;
+  height: 120rpx;
+}

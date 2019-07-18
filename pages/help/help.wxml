@@ -1,0 +1,6 @@
+<view class='root'>
+  <view class='padding-view'>
+  </view>
+
+  <image class='bottomimage' src='../../images/bottomimage.png'/>
+</view>

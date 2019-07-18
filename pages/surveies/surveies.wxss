@@ -1,0 +1,41 @@
+@import "../common/common.wxss";
+
+
+.items{
+  background-color: white;
+  margin-top: 20rpx;
+  width: 100vw;
+}
+
+
+
+.item{
+  padding-top: 16rpx;
+  padding-bottom: 16rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  width: calc(100vw-60rpx);
+  display: flex;
+  flex: 1;
+  height: 160rpx;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(to right, #FF9176, #FE5E86);
+  align-items: center;
+  margin-bottom: 20rpx;
+  border-radius: 8rpx;
+}
+
+.name{
+  color: #f8f8f8;
+  font-size: 14pt;
+  margin-left: 20rpx;
+  flex: 1;
+}
+
+.status{
+  color: #f8f8f8;
+  font-size: 11pt;
+  margin-right: 10rpx;
+  width: 200rpx;
+}

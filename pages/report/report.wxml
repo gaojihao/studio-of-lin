@@ -1,0 +1,23 @@
+<view class='root'>
+  <empty wx:if="{{list.length === 0}}" inner-text="您暂时没有就诊数据哦~" />
+  <block wx:else>
+    <view class='items'>
+    <view class='weui-cell-list' bindtap="onDetail" wx:for="{{items}}" wx:key="{{item.id}}" data-url="{{item.url}}">
+      <view class='weui-cell-left'>
+        <view class='weui-cell-item-top'>
+          <text class='weui-cell-date'>{{item.date}}</text>
+          <text class='weui-cell-title'>{{item.title}}</text>
+        </view>
+        <view class='weui-cell-item-bottom'>
+          <text class='weui-cell-hospital'>{{item.hospitalName}}</text>
+          <text class='weui-cell-department'>{{item.departmentName}}</text>
+        </view>
+      </view>
+      <view class='weui-cell-right'>
+         <image class='weui-cell-image' src='https://www.studyhealth.org{{item.headimg}}'/>
+         <text class='weui-cell-doctor'>{{item.doctorName}}</text>
+      </view>
+    </view>
+  </view>
+  </block>
+</view>

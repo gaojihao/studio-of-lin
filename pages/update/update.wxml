@@ -1,0 +1,81 @@
+<view class='root'>
+  <view class='padding-view'>
+
+    <view class='input-item'>
+      <view class='label'>姓名:</view>
+      <input value='{{info.name}}' bindinput="bindNameInput" placeholder="请输入姓名"></input>
+    </view>
+
+    <view class='input-item'>
+      <view class='label'>性别:</view>
+      <radio-group class="sex-group" bindchange="radioChange">
+        <label wx:for="{{items}}" wx:key="{{item.value}}">
+          <view class="sex-cell">
+            <radio value="{{item.value}}" color="#54a0ff" checked="{{item.checked}}" />
+            <view class="sex-cell-name">{{item.name}}</view>
+          </view>
+        </label>
+      </radio-group>
+    </view>
+
+    <view class='input-item'>
+      <view class='label'>出生年月:</view>
+      <picker 
+      class='birthday-picker'
+      mode="date" 
+      value="{{date}}" 
+      start="2000-09-01" 
+      bindchange="bindDateChange">
+          <view class="weui-input">{{date}}
+            <image class='arrow-down' src='../../images/xiangxia.png'/>
+          </view>
+        </picker>
+    </view>
+
+    <view class='input-item'>
+      <view class='label'>就诊城市:</view>
+      <picker 
+      class='birthday-picker'
+      mode="selector" 
+      value="{{selectIndex}}"
+      range="{{cities}}"
+      range-key="city" 
+      bindchange="bindCityChange">
+          <view class="weui-input">{{cities[selectIndex].city}}
+            <image class='arrow-down' src='../../images/xiangxia.png'/>
+          </view>
+        </picker>
+    </view>
+
+    <view class='input-item'>
+      <view class='label'>现居住地:</view>
+      <input value='{{info.address}}' bindinput="bindAddressInput" placeholder="请输入现居住地"></input>
+    </view>
+
+    <view class='input-item'>
+      <view class='label'>与患者关系:</view>
+      <radio-group class="sex-group" bindchange="relationChange">
+        <label wx:for="{{relation}}" wx:key="{{item.value}}">
+          <view class="sex-cell">
+            <radio value="{{item.value}}" color="#54a0ff" checked="{{item.checked}}" />
+            <view class="sex-cell-name">{{item.name}}</view>
+          </view>
+        </label>
+      </radio-group>
+    </view>
+
+    <view class='input-item'>
+      <view class='label'>紧急联系号码:</view>
+      <input bindinput="bindPhoneInput" placeholder="请输入紧急联系号码"></input>
+    </view>
+
+
+    <button 
+    bindtap='onUpdateInfo' 
+    class='login' 
+    size='default' 
+    type='primary'>
+    提交
+    </button>
+  </view>
+</view>

@@ -1,0 +1,27 @@
+<view class='root'>
+  <view class='padding-view'>
+    <view class='input-item'>
+      <image class='small-icon' src='../../images/shoujihao.png'></image>
+      <input bindinput="bindPhoneInput" type="number" maxlength="11" placeholder="请输入手机号"/>
+    </view>
+    <view class='input-item'>
+      <button class='smscode' size='mini' disabled='{{disabled}}' bindtap='onGetCode' type='default'>{{text}}</button>
+      <image class='small-icon' src='../../images/yanzhengma.png'></image>
+      <input bindinput="bindCodeInput" value='{{codeValue}}' type="number" maxlength="6" placeholder="请输入验证码"></input>
+    </view>
+    <view class='input-item'>
+      <image class='small-icon' src='../../images/password.png'></image>
+      <input bindinput="bindPwdInput" password maxlength="16" placeholder="请输入密码"></input>
+    </view>
+
+    <button 
+    bindtap='onLogin' 
+    class='login' 
+    size='default' 
+    type='primary'>
+    提交
+    </button>
+  </view>
+
+  <image class='bottomimage' src='../../images/bottomimage.png'/>
+</view>

@@ -1,0 +1,17 @@
+<view class='root'>
+  <empty wx:if="{{items.length === 0}}" inner-text="健康教育知识为空" />
+  <block wx:else>
+    <view 
+    class='item' 
+    bindtap="onDetail" 
+    wx:for="{{items}}" 
+    wx:key="{{item.title}}"
+    data-url="{{item.url}}">
+      <view class='title'>{{item.title}}</view>
+      <view class='bottom'>
+        <text class='data'>{{item.date}}</text>
+        <text class='author'>{{item.creater}}</text>
+      </view>
+    </view>
+  </block>
+</view>

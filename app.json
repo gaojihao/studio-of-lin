@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/info/info",
+    "pages/mine/mine",
+    "pages/pingjia/pingjia",
+    "pages/register/register",
+    "pages/yuyue/yuyue",
+    "pages/zixun/zixun",
+    "pages/update/update",
+    "pages/home/home",
+    "pages/forget/forget",
+    "pages/web/web",
+    "pages/changepwd/changepwd",
+    "pages/changephone/changephone",
+    "pages/about/about",
+    "pages/help/help",
+    "pages/video/video",
+    "pages/play/play",
+    "pages/nickName/nickName",
+    "pages/interact/interact",
+    "pages/doctors/doctors",
+    "pages/myorder/myorder",
+    "pages/survey/survey",
+    "pages/contact/contact",
+    "pages/health/health",
+    "pages/healthguide/healthguide",
+    "pages/scale/scale",
+    "pages/report/report",
+    "pages/surveies/surveies",
+    "pages/hospitalguide/hospitalguide",
+    "pages/hospital/hospital",
+    "pages/empty/empty"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "新华康复",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

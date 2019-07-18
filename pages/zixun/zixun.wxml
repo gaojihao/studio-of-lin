@@ -1,0 +1,18 @@
+<view class='root'>
+  <view id='j_page' class='content'>
+    <block wx:for="{{items}}" wx:key="{{item.content}}">
+      <view style="align-self: flex-end" class='item-style' wx:if="{{item.name == name}}">
+        <text class='text-msg-style'>{{item.content}}</text>
+        <image class='item-header-style' src="https://www.studyhealth.org{{item.headImage}}"/>
+      </view>
+      <view class='item-style' wx:else>
+        <image class='item-header-style' src="https://www.studyhealth.org{{item.headImage}}"/>
+        <text class='text-msg-style'>{{item.content}}</text>
+      </view>
+    </block>
+  </view>
+  <view class='bottom'>
+    <input bindinput="bindMsgInput" value='{{text}}' class='text-input'/>
+    <button bindtap='onSend' class='send-btn'>发送</button>
+  </view>
+</view>

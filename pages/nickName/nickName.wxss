@@ -1,0 +1,14 @@
+@import "../common/common.wxss";
+
+.commit{
+  height: 80rpx;
+  border-radius: 40rpx;
+  margin-top: 40rpx;
+}
+
+.bottomimage{
+  width: 100vw;
+  height: 29.2vw;
+  position: absolute;
+  bottom: 0;
+}

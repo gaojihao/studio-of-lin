@@ -1,0 +1,14 @@
+<block wx:if="{{markers.length > 0}}">
+<map 
+longitude='{{longitude}}' 
+show-location="true"
+scale="12" 
+latitude='{{latitude}}' 
+class='location-map' 
+markers="{{markers}}" 
+bindmarkertap="markertap">
+</map>
+</block>
+<block wx:else>
+  <view></view>
+</block>

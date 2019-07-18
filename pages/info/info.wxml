@@ -1,0 +1,55 @@
+<view class='root'>
+  <view class='top'>
+    <view class='userAvatar'>
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view wx:if="{{info.nickname}}" class='userNickName' catchtap='onChangeNickName'>
+      <view>{{info.nickname}}</view>
+      <image class='small-icon' src='../../images/white-arrow.png' />
+    </view>
+    <view wx:else class='userNickName'>请设置昵称</view>
+    <view class='info' catchtap='onEdit'>
+      <view>个人信息</view>
+    </view>
+  </view>
+
+  <view class='info-style'>
+
+    <view class='info-item' catchtap='onUpdatePhone'>
+      <view class='label'>手机号</view>
+      <text class='phone'>{{info.phone}}</text>
+      <image class='small-icon' src='../../images/arrow.png' />
+    </view>
+
+    <view class='info-item' catchtap='onChangePwd'>
+      <view class='label'>修改密码</view>
+      <image class='small-icon' src='../../images/arrow.png' />
+    </view>
+
+    <view class='info-item' catchtap='onMyOrder'>
+      <view class='label'>我的预约</view>
+      <image class='small-icon' src='../../images/arrow.png' />
+    </view>
+
+    <view class='info-item' catchtap='onAboutUs'>
+      <view class='label'>关于我们</view>
+      <image class='small-icon' src='../../images/arrow.png' />
+    </view>
+
+    <view class='info-item' catchtap='onHelp'>
+      <view class='label'>使用帮助</view>
+      <image class='small-icon' src='../../images/arrow.png' />
+    </view>
+
+
+    <button 
+    bindtap='onLogout' 
+    class='edit' 
+    size='default' 
+    type='primary'>
+    退出登录
+    </button>
+
+
+  </view>
+</view>

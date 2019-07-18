@@ -1,0 +1,26 @@
+<view class='root'>
+  <empty wx:if="{{hospitals.length === 0}}" inner-text="没有医院信息哦~" />
+  <block wx:else>
+    <view class='leftSide'>
+      <view bindtap='hospitalSelect' wx:for="{{hospitals}}" wx:key="{{item.hospitalId}}" data-hospitalindex="{{index}}" class="hospital-item {{index == hospitalIndex? 'on':'off'}}">
+        {{item.hospitalName}}
+      </view>
+    </view>
+    <view class='rightSide'>
+      <view bindtap='doctorSelect' class='doctor-item' wx:for="{{doctors}}" wx:key="{{item.doctorId}}" data-doctorId="{{item.doctorId}}">
+        <image class='doctor-header' src='https://www.studyhealth.org{{item.headimg}}' />
+        <view class='doctor-intr'>
+          <view class='doctor-dep'>
+            {{item.departmentName}}
+          </view>
+          <view class='doctor-name'>
+            {{item.doctorName}}
+          </view>
+          <view class='doctor-position'>
+            {{item.position}}
+          </view>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

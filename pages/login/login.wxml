@@ -1,0 +1,18 @@
+<view class='root'>
+  <image class='top' src='../../images/top.png'></image>
+  <view class='login-style'>
+    <view class='input-item'>
+      <image class='small-icon' src='../../images/shoujihao.png'></image>
+      <input bindinput="bindPhoneInput" type="number" maxlength="11" placeholder="请输入手机号"/>
+    </view>
+    <view class='input-item'>
+      <image class='small-icon' src='../../images/password.png'></image>
+      <input bindinput="bindPwdInput" password maxlength="16" placeholder="请输入密码"></input>
+    </view>
+    <view class='forgot-pwd'>
+      <text catchtap='onForgot'>忘记密码？</text>
+    </view>
+    <button bindtap='onLogin' class='login' size='default' type='primary'>登录</button>
+    <button bindtap='onRegister' class='login' plain size='default' type='default'>注册</button>
+  </view>
+</view>

@@ -1,0 +1,30 @@
+@import "../common/common.wxss";
+
+.top{
+  width: 100vw;
+  height: 100vw;
+}
+
+.login-style{
+  margin-top: 20rpx;
+  width: 80vw;
+}
+
+.forgot-pwd{
+  color: #999;
+  font-size: 11pt;
+  text-align: right;
+  margin-top: 20rpx;
+}
+
+.login{
+  height: 80rpx;
+  border-radius: 40rpx;
+  margin-top: 40rpx;
+}
+
+.register{
+  height: 80rpx;
+  border-radius: 40rpx;
+  margin-top: 40rpx;
+}

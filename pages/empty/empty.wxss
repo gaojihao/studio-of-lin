@@ -1,0 +1,21 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.empty-image{
+  width: 343rpx;
+  height: 296rpx;
+}
+
+
+.empty-text{
+  font-size: 13pt;
+  color: #999;
+  margin-top: 20rpx;
+}

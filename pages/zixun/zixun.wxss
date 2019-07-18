@@ -1,0 +1,93 @@
+.root{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #dfdfdf;
+}
+
+.content
+{
+  background-color: #dfdfdf;
+  width: 100vw;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100rpx;
+}
+
+.service-style {
+  width: 120rpx;
+  height: 120rpx;
+  position: fixed;
+  right: 30rpx;
+  bottom: 180rpx;
+  border-radius: 60rpx;
+  background-color: rgba(255, 0, 0, 0.637);
+  color: white;
+  font-size: 28rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.61);
+}
+
+.bottom
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 90rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 1px solid #cccccc;
+  align-items: center;
+  background-color: #efefef;
+  width: 100vw;
+}
+
+.item-style{
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  align-items: center;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.text-msg-style{
+  flex: 1;
+  background-color: green;
+  color: white;
+  font-size: 12pt;
+  border-radius: 8rpx;
+  padding: 12rpx;
+}
+
+.item-header-style{
+  width: 64rpx;
+  height: 64rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+
+.text-input{
+  height: 70rpx;
+  flex: 1;
+  background-color: white;
+  border-radius: 8rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  padding-left: 8rpx;
+}
+
+.send-btn{
+  height: 70rpx;
+  width: 20vw;
+  margin-right: 10rpx;
+  line-height:2;
+  color: #ff0000;
+  background-color: white;
+  font-size: 12pt;
+}

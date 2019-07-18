@@ -1,0 +1,26 @@
+@import "../common/common.wxss";
+
+
+.input-item{
+  position: relative;
+}
+
+.smscode{
+  position: absolute;
+  right: 4rpx;
+  z-index: 999;
+  font-size: 9pt;
+}
+
+.login{
+  height: 80rpx;
+  border-radius: 40rpx;
+  margin-top: 40rpx;
+}
+
+.bottomimage{
+  width: 100vw;
+  height: 29.2vw;
+  position: absolute;
+  bottom: 0;
+}

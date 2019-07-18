@@ -1,0 +1,46 @@
+@import "../common/common.wxss";
+
+
+.item {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 30rpx;
+  width: 100vw;
+  border-bottom: 1px #efefef solid;
+}
+
+image {
+  width: 200rpx;
+  height: 200rpx;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+}
+
+.doctot{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.font1 {
+  font-size: 12pt;
+  color: #666;
+}
+
+.font2 {
+  font-size: 12pt;
+  color: #333;
+}
+
+.font3 {
+  font-size: 10pt;
+  color: #27ae60;
+  margin-bottom: 16rpx;
+}
+
+.font4 {
+  font-size: 10pt;
+  color: #999;
+}

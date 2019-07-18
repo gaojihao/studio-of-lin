@@ -1,0 +1,17 @@
+<view class='root'>
+  <view class='padding-view'>
+    <view class='input-item'>
+      <input bindinput="bindNickNameInput" maxlength="16" placeholder="请输入昵称"/>
+    </view>
+
+    <button 
+    bindtap='onCommit' 
+    class='commit' 
+    size='default' 
+    type='primary'>
+    提交
+    </button>
+  </view>
+
+  <image class='bottomimage' src='../../images/bottomimage.png'/>
+</view>
