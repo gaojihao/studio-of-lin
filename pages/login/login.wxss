@@ -1,12 +1,7 @@
 @import "../common/common.wxss";
 
-.top{
-  width: 100vw;
-  height: 100vw;
-}
-
 .login-style{
-  margin-top: 20rpx;
+  margin-top: 40rpx;
   width: 80vw;
 }
 
@@ -27,4 +22,11 @@
   height: 80rpx;
   border-radius: 40rpx;
   margin-top: 40rpx;
+}
+
+.bottomimage{
+  width: 100vw;
+  height: 29.2vw;
+  position: absolute;
+  bottom: 0;
 }

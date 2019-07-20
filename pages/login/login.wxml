@@ -1,5 +1,4 @@
 <view class='root'>
-  <image class='top' src='../../images/top.png'></image>
   <view class='login-style'>
     <view class='input-item'>
       <image class='small-icon' src='../../images/shoujihao.png'></image>
@@ -15,4 +14,5 @@
     <button bindtap='onLogin' class='login' size='default' type='primary'>登录</button>
     <button bindtap='onRegister' class='login' plain size='default' type='default'>注册</button>
   </view>
+  <image class='bottomimage' src='../../images/bottomimage.png'/>
 </view>
