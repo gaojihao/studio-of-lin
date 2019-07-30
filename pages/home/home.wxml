@@ -36,12 +36,12 @@
 
     <view class='cell-item' catchtap='onKangFu'>
         <image class='businessImage' src='../../images/yongyao.png' />
-        <text class='cell-content-view-text'>康复指南</text>
+        <text class='cell-content-view-text'>行为指导</text>
     </view>
 
     <view class='cell-item' catchtap='onSuiFang'>
         <image class='businessImage' src='../../images/suifang.png' />
-        <text class='cell-content-view-text'>家庭随访</text>
+        <text class='cell-content-view-text'>问卷调查</text>
     </view>
   </view>
 
