@@ -1,7 +1,7 @@
 @import "../common/common.wxss";
 
 .login-style{
-  margin-top: 40rpx;
+  margin-top: 200rpx;
   width: 80vw;
 }
 
