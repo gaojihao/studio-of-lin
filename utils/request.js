@@ -1,7 +1,7 @@
 function post(url, param = {}) {
   param['terminal'] = 'wechat';
   
-  let requestURL = 'https://www.studyhealth.org' + url
+  let requestURL = 'https://www.gomeiguo.com' + url
 
   console.log(param)
   console.log(requestURL)

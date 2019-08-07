@@ -14,7 +14,7 @@
         </view>
       </view>
       <view class='weui-cell-right'>
-         <image class='weui-cell-image' src='https://www.studyhealth.org{{item.headimg}}'/>
+         <image class='weui-cell-image' src='https://www.gomeiguo.com{{item.headimg}}'/>
          <text class='weui-cell-doctor'>{{item.doctorName}}</text>
       </view>
     </view>

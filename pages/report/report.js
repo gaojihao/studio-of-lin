@@ -33,7 +33,7 @@ Page({
 
     if (url) {
       wx, wx.navigateTo({
-        url: '../web/web?url=https://www.studyhealth.org' + url,
+        url: '../web/web?url=https://www.gomeiguo.com' + url,
       })
     }
 

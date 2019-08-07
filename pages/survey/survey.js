@@ -31,7 +31,7 @@ Page({
 
 
     wx.navigateTo({
-      url: '../web/web?url=https://www.studyhealth.org' + surveyurl,
+      url: '../web/web?url=https://www.gomeiguo.com' + surveyurl,
     })
 
   },
