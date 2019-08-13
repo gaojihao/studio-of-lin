@@ -7,7 +7,7 @@
       <view>{{info.nickname}}</view>
       <image class='small-icon' src='../../images/white-arrow.png' />
     </view>
-    <view wx:else class='userNickName'>请设置昵称</view>
+    <view wx:else class='userNickName' catchtap='onChangeNickName'>请设置昵称</view>
     <view class='info' catchtap='onEdit'>
       <view>个人信息</view>
     </view>
