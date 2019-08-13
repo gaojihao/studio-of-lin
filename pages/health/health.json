@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "健康教育"
+  "navigationBarTitleText": "健康教育",
+  "usingComponents": {
+    "empty": "../empty/empty"
+  }
 }

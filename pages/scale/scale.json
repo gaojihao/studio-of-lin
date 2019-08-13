@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "测评量表"
+  "navigationBarTitleText": "测评量表",
+  "usingComponents": {
+    "empty": "../empty/empty"
+  }
 }

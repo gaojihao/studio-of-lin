@@ -1,5 +1,5 @@
 <view class='root'>
-  <empty wx:if="{{list.length === 0}}" inner-text="您暂时没有就诊数据哦~" />
+  <empty wx:if="{{items.length === 0}}" inner-text="您暂时没有健康数据哦~" />
   <block wx:else>
     <view class='items'>
     <view class='weui-cell-list' bindtap="onDetail" wx:for="{{items}}" wx:key="{{item.id}}" data-url="{{item.url}}">

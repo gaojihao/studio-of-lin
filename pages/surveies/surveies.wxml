@@ -1,5 +1,5 @@
 <view class='root'>
-  <empty wx:if="{{list.length === 0}}" inner-text="您暂时没有问卷信息" />
+  <empty wx:if="{{items.length === 0}}" inner-text="您暂时没有问卷信息" />
   <block wx:else>
     <view class='items'>
       <view bindtap='surveySelect' class='item' wx:for="{{items}}" wx:key="{{item.surveyUrl}}" data-surveyUrl="{{item.surveyUrl}}">

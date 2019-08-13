@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "健康档案"
+  "navigationBarTitleText": "健康档案",
+  "usingComponents": {
+    "empty": "../empty/empty"
+  }
 }

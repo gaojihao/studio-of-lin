@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "问卷调查"
+  "navigationBarTitleText": "问卷调查",
+  "usingComponents": {
+    "empty":"../empty/empty"
+  }
 }
