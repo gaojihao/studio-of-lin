@@ -3,10 +3,6 @@
   <view class='itembg'>
 
     <view class='business'>
-      <view class='businessItem' bindtap='onZiXun'>
-        <image class='businessImage' src='../../images/zixun.png' />
-        <text class='businessText'>咨询</text>
-      </view>
       <view class='businessItem' bindtap='onInfo'>
         <image class='businessImage' src='../../images/info.png' />
         <text class='businessText'>信息</text>
@@ -24,10 +20,6 @@
     <text class='cell-head-text'>服务项目</text>
   </view>
   <view class='cell-content-view'>
-    <view class='cell-item' catchtap='onWenZhen'>
-        <image class='businessImage' src='../../images/wenzhen.png' />
-        <text class='cell-content-view-text'>在线咨询</text>
-    </view>
 
     <view class='cell-item' catchtap='onJiaoYu'>
         <image class='businessImage' src='../../images/jiaoyu.png' />
