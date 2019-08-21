@@ -3,9 +3,6 @@ function post(url, param = {}) {
   
   let requestURL = 'https://wound.gomeiguo.com' + url
 
-  console.log(param)
-  console.log(requestURL)
-
   return new Promise((reslove, reject) => {
     wx.request({
       url: requestURL,
@@ -13,8 +10,7 @@ function post(url, param = {}) {
       method: 'POST',
       header: { 'content-type': 'application/x-www-form-urlencoded'},
       success: function (res) {
-         console.log(res)
-
+  
         if (res.data.code === 200) {
           reslove(res.data.data)
         } else {
@@ -22,7 +18,6 @@ function post(url, param = {}) {
         }
       },
       fail: function (error) {
-        console.log(error)
         reject(error)
       },
       complete: function (res) {

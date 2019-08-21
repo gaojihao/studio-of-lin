@@ -40,8 +40,7 @@ Page({
 
     consultList(app.globalData.token).then(ret => {
       let myInfo = ret.list.filter(function (value) { return value.name === name })[0];
-      console.log(myInfo.name);
-
+      
       this.setData({
         items: ret.list,
         headImage: myInfo.headImage,
@@ -63,7 +62,6 @@ Page({
     }
 
     consult({ token: app.globalData.token, content: text }).then(ret => {
-      console.log(ret);
       let item = { senderId: senderId, name: name, headImage: headImage, content: text}
       this.setData({
         text: '',
@@ -73,7 +71,6 @@ Page({
       this.pageScrollToBottom();
 
     }, error => {
-      console.log(error);
     })
   }
 

@@ -18,7 +18,6 @@ Page({
       })
 
     }, reject => {
-      console.log(reject);
       wx.showToast({
         title: reject.error,
       })
