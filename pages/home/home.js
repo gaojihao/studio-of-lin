@@ -170,7 +170,7 @@ Page({
   //就医指南
   onHospitalFlow: function () {
     wx, wx.navigateTo({
-      url: '../web/web?url=https://www.gomeiguo.com' + this.data.hospital.hospitalFlow,
+      url: '../web/web?url=https://wound.gomeiguo.com' + this.data.hospital.hospitalFlow,
     })
   },
 
@@ -186,7 +186,7 @@ Page({
   //院内指引
   onHospitalGuide: function () {
     wx, wx.navigateTo({
-      url: `../web/web?url=https://www.gomeiguo.com${this.data.hospital.hospitalGuide}`,
+      url: `../web/web?url=https://wound.gomeiguo.com${this.data.hospital.hospitalGuide}`,
     })
   },
 

@@ -29,7 +29,6 @@ Page({
     this.setData({disabled:true})
 
     sendSMS(phoneValue, '1').then(res => {
-      this.setData({ codeValue: res.smsCode})
       wx.showToast({ title: '验证码发送成功', icon: 'success' })
     }, reject => {
       wx.showToast({ title: reject.error, icon: 'none' })

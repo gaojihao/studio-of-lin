@@ -32,7 +32,7 @@ Page({
 
     if (url) {
       wx, wx.navigateTo({
-        url: '../web/web?url=https://www.gomeiguo.com' + url,
+        url: '../web/web?url=https://wound.gomeiguo.com' + url,
       })
     }
 

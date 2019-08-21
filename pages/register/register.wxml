@@ -7,7 +7,7 @@
     <view class='input-item'>
       <button class='smscode' size='mini' disabled='{{disabled}}' bindtap='onGetCode' type='default'>{{text}}</button>
       <image class='small-icon' src='../../images/yanzhengma.png'></image>
-      <input bindinput="bindCodeInput" value='{{codeValue}}' type="number" maxlength="6" placeholder="请输入验证码"></input>
+      <input bindinput="bindCodeInput" type="number" maxlength="6" placeholder="请输入验证码"></input>
     </view>
     <view class='input-item'>
       <image class='small-icon' src='../../images/password.png'></image>

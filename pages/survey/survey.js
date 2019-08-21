@@ -31,7 +31,7 @@ Page({
 
 
     wx.navigateTo({
-      url: '../web/web?url=https://www.gomeiguo.com' + surveyurl,
+      url: '../web/web?url=https://wound.gomeiguo.com' + surveyurl,
     })
 
   },

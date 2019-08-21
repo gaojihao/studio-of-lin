@@ -3,10 +3,10 @@
     <block wx:for="{{items}}" wx:key="{{item.content}}">
       <view style="align-self: flex-end" class='item-style' wx:if="{{item.name == name}}">
         <text class='text-msg-style'>{{item.content}}</text>
-        <image class='item-header-style' src="https://www.gomeiguo.com{{item.headImage}}"/>
+        <image class='item-header-style' src="https://wound.gomeiguo.com{{item.headImage}}"/>
       </view>
       <view class='item-style' wx:else>
-        <image class='item-header-style' src="https://www.gomeiguo.com{{item.headImage}}"/>
+        <image class='item-header-style' src="https://wound.gomeiguo.com{{item.headImage}}"/>
         <text class='text-msg-style'>{{item.content}}</text>
       </view>
     </block>
