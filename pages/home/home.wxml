@@ -3,6 +3,10 @@
   <view class='itembg'>
 
     <view class='business'>
+      <view class='businessItem' bindtap='onZiXun'>
+        <image class='businessImage' src='../../images/zixun.png' />
+        <text class='businessText'>咨询</text>
+      </view>
       <view class='businessItem' bindtap='onInfo'>
         <image class='businessImage' src='../../images/info.png' />
         <text class='businessText'>信息</text>
