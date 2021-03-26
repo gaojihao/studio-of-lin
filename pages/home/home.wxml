@@ -32,12 +32,12 @@
 
     <view class='cell-item' catchtap='onKangFu'>
         <image class='businessImage' src='../../images/yongyao.png' />
-        <text class='cell-content-view-text'>行为指导</text>
+        <text class='cell-content-view-text'>健康知道</text>
     </view>
 
     <view class='cell-item' catchtap='onSuiFang'>
         <image class='businessImage' src='../../images/suifang.png' />
-        <text class='cell-content-view-text'>问卷调查</text>
+        <text class='cell-content-view-text'>健康评估</text>
     </view>
   </view>
 

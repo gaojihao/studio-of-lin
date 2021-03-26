@@ -1,12 +1,12 @@
 {
   "pages": [
+    "pages/home/home",
     "pages/login/login",
     "pages/info/info",
     "pages/mine/mine",
     "pages/register/register",
     "pages/zixun/zixun",
     "pages/update/update",
-    "pages/home/home",
     "pages/forget/forget",
     "pages/web/web",
     "pages/changepwd/changepwd",
